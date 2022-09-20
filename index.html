@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Animated Navigation Modals with Parallax & GSAP - CROCO.CODE</title>
+		<meta name="description" content="Inspiration for an animated modal with CSS transitions and animations powered by TweenMax." />
+		<meta name="keywords" content="fullscreen, animation, inspiration, javascript, html5, css3, code, snippets" />
+		<meta name="author" content="CROCO.CODE" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+
+  </head>
+  <body>
+    <!-- CROCO.CODE:demo START -->
+    <a href="#0" class="trigger">categories</a>
+
+    <div class="items">
+      <div class="items__inner" id="ci-scene">
+
+        <div class="items__layer layer" data-depth="0.85">
+          <div class="items__item" data-title="Nature"><a href="#" target="_blank"></a></div>
+        </div>
+        <div class="items__layer layer" data-depth="0.70">
+          <div class="items__item" data-title="Food"><a href="#" target="_blank"></a></div>
+        </div>
+        <div class="items__layer layer" data-depth="0.65">
+          <div class="items__item" data-title="Architecture"><a href="#" target="_blank"></a></div>
+        </div>
+        <div class="items__layer layer" data-depth="1.20">
+          <div class="items__item" data-title="Portrait"><a href="#" target="_blank"></a></div>
+        </div>
+        <div class="items__layer layer" data-depth="0.15">
+          <div class="items__item" data-title="close"><a class="close" target="_blank"></a></div>
+        </div>
+
+      </div>
+    </div>
+    <!-- CROCO.CODE:demo END -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
